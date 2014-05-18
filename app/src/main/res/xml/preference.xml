@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_auto_stop"
+        android:defaultValue="false"
+        android:title="@string/pref_auto_stop" />
+    <EditTextPreference
+        android:key="pref_auto_stop_timeout"
+        android:defaultValue="300"
+        android:title="@string/pref_auto_stop_timer"
+        android:numeric="integer" />
+    <RingtonePreference
+        android:key="pref_auto_stop_sound"
+        android:defaultValue="false"
+        android:title="@string/pref_auto_stop_sound" />
+</PreferenceScreen>

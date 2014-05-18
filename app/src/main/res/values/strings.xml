@@ -3,6 +3,9 @@
 
     <string name="app_name">ConcentrationApp</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_time_set">Set time</string>
+    <string name="action_settings">Settings</string>
 
+    <string name="pref_auto_stop">Stop automatically</string>
+    <string name="pref_auto_stop_timer">Timeout</string>
+    <string name="pref_auto_stop_sound">Sound to play at stop</string>
 </resources>

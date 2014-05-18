@@ -2,8 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.concentrationapp.app.MainActivity" >
     
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_time_set"
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
         android:orderInCategory="100"
         android:showAsAction="always" />
 </menu>
